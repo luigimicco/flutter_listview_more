@@ -13,6 +13,7 @@ class ListViewPage extends StatelessWidget {
     var faker = Faker();
     for (int i = 0; i < 20; i++) {
       itemTestData.add(Item(
+          image: "https://picsum.photos/140/140?random=${i}",
           firstName: faker.person.firstName(),
           lastName: faker.person.lastName(),
           email: faker.internet.email()));
