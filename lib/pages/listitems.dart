@@ -9,7 +9,6 @@ class ListItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
       children: _buildList(),
     );
   }
