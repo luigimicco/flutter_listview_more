@@ -45,12 +45,10 @@ class _CardItemState extends State<CardItem> {
                 ),
               ),
               IconButton(
-                  // 4
                   icon: Icon(
                       _isFavorited ? Icons.favorite : Icons.favorite_border),
                   iconSize: 30,
                   color: Colors.red,
-                  // 5
                   onPressed: () {
                     setState(() {
                       _isFavorited = !_isFavorited;

@@ -24,9 +24,7 @@ class ListViewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        //5
         home: Scaffold(
-      //6
       appBar: AppBar(
         title: Text(title),
       ),
